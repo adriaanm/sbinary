@@ -13,7 +13,7 @@ lazy val root = (project in file(".")).
       version := "0.4.4-SNAPSHOT",
       scalaVersion := "2.10.6",
       crossScalaVersions := Seq("2.10.6", "2.11.8", "2.12.0-M3"),
-      bintrayPackage := "sbinary",
+      //bintrayPackage := "sbinary",
       developers := List(
         Developer("drmaciver", "David R. MacIver", "@drmaciver", url("https://github.com/DRMacIver")),
         Developer("harrah", "Mark Harrah", "@harrah", url("https://github.com/harrah")),
